@@ -1,8 +1,9 @@
-#Multi-Domain CSV Generator
+# Multi-Domain CSV Generator
 
 A unified, extensible data-simulation engine for generating domain-specific datasets, storing them in Google Sheets, and seeding them into a SQLite database.
 
-##Overview
+## Overview
+
 This project is a multi-domain synthetic dataset generator designed to simulate realistic business data across three domains:
 - Retail
 - Manufacturing
@@ -25,7 +26,7 @@ This makes it suitable for:
 -ML model prototyping
 -Dashboards & analytics
 
-##Features
+## Features
 -Multi-domain simulation engine
 Each domain contains:
 1. Entity creation (Products, Stores, Equipment, Students…)
@@ -40,12 +41,12 @@ Each domain contains:
 4. Maintains memory-mapping tables (e.g., sale → inventory)
 5. Populates rows onto Google Sheets
 
-##Supported Domains & Entities
+## Supported Domains & Entities
 1. Retail - Product, Store, Sale, Inventory
 2. Manufacturing - Equipment, Technician, Downtime, Maintainence
 3. Education - Student, Module, Learning Progress, Resource Usage
 
-##Running the Simulator
+## Running the Simulator
 1. Install dependencies
    pip install -r requirements.txt
 3. Generate a credentials.json file for the Google Sheets API from the Google Cloud Console
